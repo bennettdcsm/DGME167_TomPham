@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title><h1>Techniques for Responsive Images</h1></title>
+	<style>
+		img {
+			Max-width: 100%;
+			heigh: auto;
+			border: 2px solid #301;
+			display: block;
+			margin: 20px 0;
+			
+		}
+		@media (max-width: 600px) {
+			img {
+				width: 100%;
+				border-color: #301934;
+			}
+		}
+		.image-container {
+			background-color: #1B03A3;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>1. Using CSS max-width: 100%</h2>
+	
+	<p>This technique ensures images neverr exceed their container width while maintaining their aspect ratio automatically.</p>
+	
+	
+<div class="image-container">
+	<img src="images/fantastic-animal-constellation.png" alt="Example Image">
+		 </div>
+	
+	
+	
+	
+	
+	
+	
+	<h2>2. Using Media Queries</h2>
+	<p>Media queries allow differnt image styling for different screen widths. For examaple, images can expand to full width on small screens.</p>
+	
+	
+	
+	<div class="image-container"><img src="images/fantastic-animal-constellation.png" width="1200" height="800" alt=""/></div>
+	
+	
+	
+	
+</body>
+</html>
