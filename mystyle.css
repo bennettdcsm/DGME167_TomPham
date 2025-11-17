@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body,td,th {
+	color: #9DCCD7;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+body {
+	background-image: url("Backgrounds 2/Gradiant overlay.jpg");
+	background-color: #0F151D;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #9DCCD7;
+	background-repeat: repeat;
+	margin: 10px;
+}
+body article {
+}
+h1 {
+	font-size: 24px;
+	color: #D6F0F1;
+	text-align: center;
+	margin: 20px 0;
+	background-color: #0F151D;
+	
+}
+h2 {
+	font-size: 18px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+}
+h3 {
+	font-size: 16px;
+	color: #5997AE;
+	background-color: #0F151D;
+	text-align: right
+}
+h4 {
+	font-size: 14px;
+	color: #165578;
+	text-align: left;
+	background-color: #0F151D;
+	
+}
+h5 {
+	font-size: 16px;
+	color: #0F151D;
+	
+}
+a:link {
+	color: #9DCCD7;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #D6F0F1;
+}
+a:hover {
+	text-decoration: none;
+	color: #5997ae;
+}
+a:active {
+	background-color: #0F151D;
+	font-weight: normal;
+}
+a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+	
+nav {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+nav a {
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content-section {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+	background-color: #0F151D;
+	color: #9DCCD7;
+	padding: 2rem;
+	border-radius: 8px;
+}
+
+.content-section img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.content-section p {
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	color: #D6F0F1;
+	text-align: left;
+}
+footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #165578;
+	margin-top: 30px;
+}
+.content-section {
+	text-align: left;
+}
