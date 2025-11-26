@@ -133,8 +133,39 @@ a:active {
 	font-weight: bold;
 	font-size: 1rem;
 }
-/* Footer */
+/* ============================
+   FOOTER + SOCIAL ICONS
+   ============================ */
 
 footer {
-
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #165578;
+    margin-top: 30px;
+    background-color: #0F151D;
 }
+
+/* Horizontal icons */
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .social-icons img {
+    width: 35px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.15);
+}
+
+/* Utility bottom links */
+.bottom-links a {
+    margin: 0 1rem;
+}
+
