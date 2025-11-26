@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a:link {
+	color: #9DCCD7;
+	text-decoration: none;
+}
+a:visited {
+	color: #D6F0F1;
+	text-decoration: none;
+}
+a:hover {
+	color: #5997AE;
+	text-decoration: none;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+	font-size: 24px;
+	color: #D6F0F1;
+	background-color: #0F151D;
+	text-align: center;
+}
+h2 {
+	font-size: 22px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+	
+}
+h3 {
+	font-size: 20px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+	text-align: center;
+
+}
+h4 {
+	font-size: 18px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+	text-align: left;
+}
+h5 {
+	font-size: 16px;
+	color: #0F151D;
+	background-color: #5997AE;
+	text-align: center;
+}
+a:active {
+	text-decoration: none;
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* -------------------- GLOBAL STYLES -------------------- */
+
+
+body {
+	background-image: url(Backgrounds%202/Gradiant%20overlay.jpg);
+}
+h1 {
+	font-size: 24px;
+	color: #D6F0F1;
+}
+h2 {
+	font-size: 22px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+}
+h3 {
+	font-size: 20px;
+	color: #5997AE;
+}
+h4 {
+	font-size: 18px;
+	color: #5997AE;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #0F151D;
+}
+h5 {
+	font-size: 16px;
+	color: #0F151D;
+}
+
+body {
+	background-color: #0F151D;
+	color: #9DCCD7;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, serif;
+	margin: 0;
+	padding: 0;
+	border: thin solid #0F151D;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #9DCCD7;
+}
+a:visited { color: #D6F0F1; }
+a:hover   { color: #5997AE; }
+
+/* Header logo centered */
+header img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* -------------------- NAVIGATION -------------------- */
+nav {
+	text-align: center;
+	background-color: #0F151D;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
+/* -------------------- GRID LAYOUT -------------------- */
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;  /* two equal columns */
+	gap: 20px;
+	padding: 20px;
+	background-color: #0F151D;
+}
+
+/* Boxes inside grid */
+.grid-item {
+	background-color: #0F151D;
+	padding: 15px;
+	border-radius: 6px;
+	text-align: left;
+}
+
+/* Footer */
+footer {
+	padding: 20px;
+	margin-top: 10px;
+}
