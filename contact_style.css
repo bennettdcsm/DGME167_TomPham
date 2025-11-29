@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+a:link {
+	color: #9DCCD7;
+}
+a:visited {
+	color: #D6F0F1;
+}
+a:hover {
+	color: #5997AE;
+}
+h1 {
+	font-size: 24px;
+	color: #D6F0F1;
+	background-color: #0F151D;
+	text-align: center;
+}
+h2 {
+	font-size: 22px;
+	text-align: left;
+	color: #9DCCD7;
+	background-color: #0F151D;
+}
+h3 {
+	font-size: 20px;
+	color: #5997AE;
+	background-color: #0F151D;
+}
+h4 {
+	font-size: 18px;
+	color: #5997AE;
+	background-color: #0F151D;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h5 {
+	font-size: 16px;
+	color: #5997AE;
+	text-align: center;
+	background-color: #0F151D;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #165578;
+	margin-top: 30px;
+}
+
+/* Social Media Icons Row */
+footer .social-icons {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px; /* spacing between icons */
+margin-top: 10px;
+}
+
+footer .social-icons img {
+width: 35px;
+height: auto;
+transition: transform 0.2s ease;
+}
+
+footer .social-icons img:hover {
+transform: scale(1.15);
+}
