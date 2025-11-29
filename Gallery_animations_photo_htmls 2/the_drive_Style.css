@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	color: #9DCCD7;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #D6F0F1;
+}
+a:hover {
+	text-decoration: none;
+	color: #5997AE;
+}
+a:active {
+	text-decoration: none;
+}
+h1 {
+	font-size: 24px;
+	color: #D6F0F1;
+	background-color: #0F151D;
+	text-align: center;
+}
+h2 {
+	font-size: 22px;
+	color: #9DCCD7;
+	background-color: #0F151D;
+
+}
+h3 {
+	font-size: 20px;
+	color: #5997AE;
+	background-color: #0F151D;
+}
+h4 {
+	font-size: 18px;
+	color: #165578;
+}
+h5 {
+	font-size: 16px;
+	color: #0F151D;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+}
