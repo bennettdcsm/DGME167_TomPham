@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 a:link {
 	color: #9DCCD7;
 }
@@ -11,6 +10,20 @@ a:visited {
 a:hover {
 	color: #5997AE;
 }
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 24px;
 	color: #D6F0F1;
@@ -60,6 +73,7 @@ footer .social-icons img:hover {
 	transform: scale(1.15);
 
 }
+
 
 
 
